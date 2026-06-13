@@ -262,7 +262,7 @@ export default function About() {
                   />
                 </div>
                 <div>
-                  <h3 className="font-display font-bold text-xl text-white">Dr. Inshalu</h3>
+                  <h3 className="font-display font-bold text-xl text-white">Dr. Inshalu J.H</h3>
                   <p className="text-xs font-accent uppercase tracking-wider text-brand-cyan font-bold mt-1">
                     Chief Executive Officer (CEO), MedScope
                   </p>
