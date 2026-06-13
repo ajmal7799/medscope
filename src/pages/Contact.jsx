@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp, FaInstagram, FaYoutube, FaCalendarAlt, FaCheckCircle, FaUser, FaClock, FaCalendarDay } from 'react-icons/fa';
+import { FaPhoneAlt, FaMapMarkerAlt, FaWhatsapp, FaInstagram, FaYoutube, FaCalendarAlt, FaCheckCircle, FaUser, FaClock, FaCalendarDay } from 'react-icons/fa';
 import toast from 'react-hot-toast';
 
 export default function Contact() {
@@ -75,14 +75,6 @@ ${formData.message ? `• *Message:* ${formData.message}` : ''}`;
       icon: FaWhatsapp,
       link: "https://wa.me/919037575561",
       color: "text-[#25D366] bg-[#25D366]/10 border-[#25D366]/20"
-    },
-    {
-      title: "Email Support",
-      details: ["info@medscope.in"],
-      sub: "Drop us an official line",
-      icon: FaEnvelope,
-      link: "mailto:info@medscope.in",
-      color: "text-brand-cyan bg-brand-cyan/10 border-brand-cyan/10"
     },
     {
       title: "Head Office",

@@ -28,7 +28,7 @@ export default function HeroSection({ onOpenBooking }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         
         {/* Left Side Info */}
-        <div className="lg:col-span-7 flex flex-col justify-center text-left space-y-6">
+        <div className="lg:col-span-7 flex flex-col justify-center text-left space-y-6 bg-white/75 sm:bg-transparent backdrop-blur-md sm:backdrop-blur-none p-6 sm:p-0 rounded-3xl border border-white/25 sm:border-none shadow-md sm:shadow-none">
           {/* Eyebrow */}
           <motion.div
             initial={{ opacity: 0, y: -20 }}

@@ -16,6 +16,7 @@ import MBBSAdmissions from './pages/MBBSAdmissions';
 import CountryDetail from './pages/CountryDetail';
 import AdmissionProcess from './pages/AdmissionProcess';
 import Contact from './pages/Contact';
+import Gallery from './pages/Gallery';
 
 // Scroll Restoration Wrapper
 function ScrollToTop() {
@@ -98,6 +99,7 @@ function App() {
             <Route path="/mbbs-admissions" element={<MBBSAdmissions onOpenBooking={handleOpenBooking} />} />
             <Route path="/mbbs/:countryId" element={<CountryDetail onOpenBooking={handleOpenBooking} />} />
             <Route path="/admission-process" element={<AdmissionProcess />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             {/* Catch-all redirect to Home */}
             <Route path="*" element={<Home onOpenBooking={handleOpenBooking} />} />

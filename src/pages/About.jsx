@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGraduationCap, FaQuoteLeft, FaCompass, FaRegLightbulb, FaShieldAlt, FaUsers, FaChevronRight, FaGlobe, FaHandshake, FaStar, FaClipboardCheck } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import CoachingSection from '../components/CoachingSection';
 
 export default function About() {
   const values = [
@@ -183,7 +184,7 @@ export default function About() {
               <div className="lg:col-span-4 flex flex-col items-center lg:items-start text-center lg:text-left space-y-4">
                 <div className="w-40 h-40 rounded-full overflow-hidden shadow-lg border-4 border-white/10 select-none bg-brand-navy flex items-center justify-center">
                   <img
-                    src="/photos/jameela%20V.H.jpg"
+                    src="/photos/jameela%20V.H.jpeg"
                     alt="Jameela V. H."
                     className="w-full h-full object-cover"
                   />
@@ -257,7 +258,7 @@ export default function About() {
                   <img
                     src="/photos/Dr.%20Inshalu.jpg"
                     alt="Dr. Inshalu"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover scale-[1.75]"
                   />
                 </div>
                 <div>
@@ -354,7 +355,10 @@ export default function About() {
         </div>
       </section>
 
-      {/* 6. Why Choose Us */}
+      {/* 6. Licensing Exam Coaching */}
+      <CoachingSection />
+
+      {/* 7. Why Choose Us */}
       <section className="py-24 bg-white relative overflow-hidden">
         <div className="absolute top-1/2 right-0 w-72 h-72 rounded-full glow-bg-green opacity-10 pointer-events-none" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

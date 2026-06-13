@@ -25,7 +25,7 @@ const videoTestimonialsData = [
   },
   {
     id: 'qMGwhuxTvic',
-    title: "Shajahan & Mishal",
+    title: "Mess facilities",
     subtitle: "Student feedback on selection & guidance",
     category: "Student Success",
   }

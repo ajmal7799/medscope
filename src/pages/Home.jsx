@@ -8,6 +8,7 @@ import StatsBar from '../components/StatsBar';
 import ServiceCard from '../components/ServiceCard';
 import CountryCard from '../components/CountryCard';
 import UniversityList from '../components/UniversityList';
+import CoachingSection from '../components/CoachingSection';
 import VideoTestimonials from '../components/VideoTestimonials';
 import ContactForm from '../components/ContactForm';
 
@@ -211,7 +212,10 @@ export default function Home({ onOpenBooking }) {
         </div>
       </section>
 
-      {/* 6. Video Testimonials */}
+      {/* 6. Licensing Exam Coaching */}
+      <CoachingSection />
+
+      {/* 7. Video Testimonials */}
       <VideoTestimonials />
 
       {/* 7. Contact Form Section */}

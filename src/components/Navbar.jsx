@@ -31,6 +31,7 @@ export default function Navbar({ onOpenBooking }) {
     { name: 'Services', path: '/services' },
     { name: 'MBBS Admissions', path: '/mbbs-admissions' },
     { name: 'Admission Process', path: '/admission-process' },
+    { name: 'Gallery', path: '/gallery' },
     { name: 'Contact', path: '/contact' }
   ];
 
